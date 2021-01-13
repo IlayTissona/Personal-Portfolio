@@ -47,6 +47,13 @@
 		flex-direction: row;
 	}
 }
+@media screen and (max-width: 768px) {
+	#projects {
+		display: flex;
+		flex-direction: column;
+	}
+}
+
 #projects div {
 	margin-top: 3px;
 	padding: 10px;
@@ -59,9 +66,14 @@
 	font-size: 30px;
 	color: #440f30;
 	font-family: monospace;
-	display: inline-block;
 	text-align: center;
 	padding-top: 20vh;
+}
+.project-img {
+	width: 50%;
+	margin-bottom: 0%;
+	margin-left: 25%;
+	margin-right: 25%;
 }
 #contact {
 	display: flex;
